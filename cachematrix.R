@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## accesses x adn gets the value of the solve. If the inverse was
 ## already cached, it will send the message "getting cached data" and
 ## return the inverse. If s is NULL, then it will run solve to find 
-## the inverse and then cache the result.
+## the inverse and then cache the result.   
 
 cacheSolve <- function(x, ...) {
 	s <- x$getsolve()
